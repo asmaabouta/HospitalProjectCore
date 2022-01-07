@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -25,6 +26,19 @@ namespace PatientWebApp.Controllers
             return View(await _context.Patient.ToListAsync());
         }
 
+        // GET: Patients/ShowSearchForm
+        public async Task<IActionResult> ShowSearchForm()
+        {
+            return View();
+        }
+
+        // Post: Patients/ShowSearchResults
+        public async Task<IActionResult> ShowSearchResults(String SearchPhrase)
+        {
+            return View("Index", await _context.Patient.Where( j =>j.Nom.Contains(SearchPhrase)).ToListAsync());
+        }
+
+
         // GET: Patients/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -44,6 +58,7 @@ namespace PatientWebApp.Controllers
         }
 
         // GET: Patients/Create
+        //[Authorize]
         public IActionResult Create()
         {
             return View();

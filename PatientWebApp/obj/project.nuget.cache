@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "iBY+AhIiSmh/sql3Ghr1NYylO8wKobSE7oJM8gk47Rhy7BidVx1Ou0bDq7Ri0AeRwTNhS4q9N3lrvlJxIHSLyA==",
+  "dgSpecHash": "tQxVfmnNLNnmBhyHRnPTo4R6XR49GLqvvEJ9nz+40kLDUvGdb39UALp8dbdFPdnuxPkNzyQ9zWC7SmlKgx8lcg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Asmaa\\Desktop\\5IIR\\ACE\\ACEproject\\PatientWebApp\\PatientWebApp\\PatientWebApp.csproj",
   "expectedPackageFiles": [
@@ -53,6 +53,7 @@
     "C:\\Users\\Asmaa\\.nuget\\packages\\microsoft.identitymodel.tokens\\5.5.0\\microsoft.identitymodel.tokens.5.5.0.nupkg.sha512",
     "C:\\Users\\Asmaa\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\Asmaa\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\Asmaa\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512",
     "C:\\Users\\Asmaa\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\3.1.5\\microsoft.visualstudio.web.codegeneration.3.1.5.nupkg.sha512",
     "C:\\Users\\Asmaa\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.contracts\\3.1.5\\microsoft.visualstudio.web.codegeneration.contracts.3.1.5.nupkg.sha512",
     "C:\\Users\\Asmaa\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\3.1.5\\microsoft.visualstudio.web.codegeneration.core.3.1.5.nupkg.sha512",
